@@ -1,0 +1,13 @@
+.courseStyle{
+    border: 1px solid lightgray;
+    margin: 10px;
+    padding: 10px;
+}
+.courseStyle > button{
+    background-color: goldenrod;
+    width: 150px;
+    height: 30px;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    cursor: pointer;
+}
