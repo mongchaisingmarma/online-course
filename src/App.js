@@ -28,7 +28,7 @@ function App() {
       <h4>Course Added : {cart.length}</h4>
      <Cart cart = {cart}></Cart>
       {
-        course.map(cr => <Course course = {cr} handleAddCourse = {handleAddCourse}></Course> )
+        course.map(cr => <Course course = {cr} handleAddCourse = {handleAddCourse} key ={cr.id}></Course> )
       }
       
     </div>
